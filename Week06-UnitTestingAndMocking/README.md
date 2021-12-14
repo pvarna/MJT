@@ -29,7 +29,7 @@ static <K, V> Cache<K, V> getInstance(Storage<K, V> storage, EvictionPolicy poli
 където `EvictionPolicy`, както вече се досещате, е от изброим тип, a `Storage<K, V>` е интерфейс на storage (например база данни, файлова система и т.н.), който стои зад нашия кеш. Ако липсва стойност за ключ, който търсим, пробваме да я вземем от storage-a и ако успеем, я добавяме в кеша и я връщаме.
 
 <img src="https://github.com/fmi/java-course/blob/master/06-unit-testing-and-mocking/lab/cache.svg" 
-alt="Cache">
+alt="Cache"> 
 
 #### Уточнения за имплементацията
 
